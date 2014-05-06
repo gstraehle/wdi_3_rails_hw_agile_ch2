@@ -7,3 +7,22 @@
   Time to say
   <%= link_to "Goodbye", say_goodbye_path %>!
 </p>
+
+<%= 1 + 2 %>
+<br>
+<%= 4 ** 2 %>
+<br>
+<%= "rat" + "farts" %>
+
+<p>
+  You should go to bed at <%= 4.hour.from_now.localtime %>
+</p>
+
+<h2>File names:</h2>
+<ol>
+  <% @files.each do |file| %>
+    <li> <%= file.upcase %></li>
+  <% end %>
+</ol>
+
+
