@@ -1,3 +1,20 @@
 // Place all the styles related to the Say controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+p {
+  color: green;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.list {
+  width: 30%;
+  border: double black 5px;
+  padding: 0 20px;
+}
+
+li:nth-child(even) {
+  background-color: #298EB2;
+}
+li:nth-child(odd) {
+  color: orange;
+}
